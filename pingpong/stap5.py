@@ -18,7 +18,7 @@ def teken_rechthoek(x, y, breedte, hoogte, kleur):
 def draw():
     screen.fill("blue")
     screen.draw.filled_circle((bal_x, bal_y), bal_straal, "beige")
-    teken_rechthoek(WIDTH/2, 0, middelijn_breedte, HEIGHT, "beige")
+    teken_rechthoek(WIDTH/2-middelijn_breedte/2, 0, middelijn_breedte, HEIGHT, "beige")
 
 def update():
     global bal_x, bal_y
